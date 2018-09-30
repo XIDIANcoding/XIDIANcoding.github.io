@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The blog of wyy</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-09-30T12:39:29.133Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>wangyy</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>how to build own blog with hexo and github</title>
+    <link href="http://yoursite.com/2018/09/30/how-to-build-own-blog-with-hexo-and-github/"/>
+    <id>http://yoursite.com/2018/09/30/how-to-build-own-blog-with-hexo-and-github/</id>
+    <published>2018-09-30T12:39:29.000Z</published>
+    <updated>2018-09-30T12:39:29.133Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
