@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-30T12:39:29.133Z</updated>
+  <updated>2018-09-30T16:14:20.609Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,12 +21,16 @@
     <link href="http://yoursite.com/2018/09/30/how-to-build-own-blog-with-hexo-and-github/"/>
     <id>http://yoursite.com/2018/09/30/how-to-build-own-blog-with-hexo-and-github/</id>
     <published>2018-09-30T12:39:29.000Z</published>
-    <updated>2018-09-30T12:39:29.133Z</updated>
+    <updated>2018-09-30T16:14:20.609Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="搭键博客" scheme="http://yoursite.com/categories/%E6%90%AD%E9%94%AE%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="技能" scheme="http://yoursite.com/tags/%E6%8A%80%E8%83%BD/"/>
     
   </entry>
   
