@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[java对像和对象引用]]></title>
-    <url>%2F2018%2F10%2F02%2Fjava%E5%AF%B9%E5%83%8F%E5%92%8C%E5%AF%B9%E8%B1%A1%E5%BC%95%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[123456//首先我们创建一个类用以后面的说明class Vehicle&#123; int passengers; int fuelcap; int mpg;&#125; 使用上面的模板类创建对象： Vehicle vehl=new Vehicle(); 语句的动作称之为创建一个对象，其实，它包含了四个动作: 1&lt;!--more--&gt; 右边的“new Vehicle”，是以Vehicle类为模板，在堆空间里创建一个Vehicle类对象（也简称为Vehicle对象）。 末尾的()意味着，在对象创建后，立即调用Vehicle类的构造函数，对刚生成的对象进行初始化。构造函数是肯定有的。如果你没写，Java会给你补上一个默认的构造函数。 左边的“Vehicle veh1”创建了一个Vehicle类引用变量。所谓Vehicle类引用，就是以后可以用来指向Vehicle对象的对象引用。 “=”操作符使对象引用指向刚创建的那个Vehicle对象。 我们可以把这条语句拆成两部分： Vehicle veh1; veh1 = new Vehicle(); 这样写，就比较清楚了，有两个实体：一是对象引用变量，一是对象本身。 在堆空间里创建的实体，与在数据段以及栈空间里创建的实体不同。尽管它们也是确确实实存在的实体，但是，我们看不见，也摸不着。不仅如此，我们仔细研究一下第二句，找找刚创建的对象叫什么名字？有人说，它叫“Vehicle”。不对，“Vehicle”是类（对象的创建模板）的名字。一个Vehicle类可以据此创建出无数个对象，这些对象不可能全叫“Vehicle”。 对象连名都没有，没法直接访问它。我们只能通过对象引用来间接访问对象。]]></content>
+    <title><![CDATA[java对象和对象引用]]></title>
+    <url>%2F2016%2F10%2F04%2Fjava%E5%AF%B9%E5%83%8F%E5%92%8C%E5%AF%B9%E8%B1%A1%E5%BC%95%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[123456//首先我们创建一个类用以后面的说明class Vehicle&#123; int passengers; int fuelcap; int mpg;&#125; 使用上面的模板类创建对象： Vehicle vehl=new Vehicle(); 语句的动作称之为创建一个对象，其实，它包含了四个动作: 右边的“new Vehicle”，是以Vehicle类为模板，在堆空间里创建一个Vehicle类对象（也简称为Vehicle对象）。 末尾的()意味着，在对象创建后，立即调用Vehicle类的构造函数，对刚生成的对象进行初始化。构造函数是肯定有的。如果你没写，Java会给你补上一个默认的构造函数。 左边的“Vehicle veh1”创建了一个Vehicle类引用变量。所谓Vehicle类引用，就是以后可以用来指向Vehicle对象的对象引用。 “=”操作符使对象引用指向刚创建的那个Vehicle对象。 我们可以把这条语句拆成两部分： Vehicle veh1; veh1 = new Vehicle(); 这样写，就比较清楚了，有两个实体：一是对象引用变量，一是对象本身。 在堆空间里创建的实体，与在数据段以及栈空间里创建的实体不同。尽管它们也是确确实实存在的实体，但是，我们看不见，也摸不着。不仅如此，我们仔细研究一下第二句，找找刚创建的对象叫什么名字？有人说，它叫“Vehicle”。不对，“Vehicle”是类（对象的创建模板）的名字。一个Vehicle类可以据此创建出无数个对象，这些对象不可能全叫“Vehicle”。 对象连名都没有，没法直接访问它。我们只能通过对象引用来间接访问对象。]]></content>
       <categories>
         <category>编程技能</category>
       </categories>

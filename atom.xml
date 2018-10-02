@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-02T07:52:51.228Z</updated>
+  <updated>2018-10-02T07:59:11.907Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,21 +17,18 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>java对像和对象引用</title>
-    <link href="http://yoursite.com/2018/10/02/java%E5%AF%B9%E5%83%8F%E5%92%8C%E5%AF%B9%E8%B1%A1%E5%BC%95%E7%94%A8/"/>
-    <id>http://yoursite.com/2018/10/02/java对像和对象引用/</id>
-    <published>2018-10-02T07:21:23.000Z</published>
-    <updated>2018-10-02T07:52:51.228Z</updated>
+    <title>java对象和对象引用</title>
+    <link href="http://yoursite.com/2016/10/04/java%E5%AF%B9%E5%83%8F%E5%92%8C%E5%AF%B9%E8%B1%A1%E5%BC%95%E7%94%A8/"/>
+    <id>http://yoursite.com/2016/10/04/java对像和对象引用/</id>
+    <published>2016-10-04T07:21:23.000Z</published>
+    <updated>2018-10-02T07:59:11.907Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
+      &lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//首先我们创建一个类用以后面的说明&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Vehicle&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; passengers;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; fuelcap;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; mpg;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;使用上面的模板类创建对象：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Vehicle vehl=new Vehicle();&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;语句的动作称之为创建一个对象，其实，它包含了四个动作:&lt;/p&gt;
     
     </summary>
     
