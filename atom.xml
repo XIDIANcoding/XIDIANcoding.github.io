@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-02T07:59:11.907Z</updated>
+  <updated>2018-10-09T03:02:58.998Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>java内存模型</title>
+    <link href="http://yoursite.com/2016/10/06/java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/"/>
+    <id>http://yoursite.com/2016/10/06/java内存模型/</id>
+    <published>2016-10-06T02:34:50.000Z</published>
+    <updated>2018-10-09T03:02:58.998Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Java把内存划分成两种：一种是栈内存，一种是堆内存。&lt;/p&gt;
+&lt;p&gt;堆主要用来存放对象的，栈主要是用来执行程序的.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;​       在&lt;font color=&quot;red&quot;&gt;函数中&lt;/font&gt;定义的一些&lt;font color=&quot;red&quot;&gt;基本类型的变量和对象的引用变量&lt;/font&gt;都在函数的&lt;font color=&quot;red&quot;&gt;栈内存中&lt;/font&gt;分配。&lt;/p&gt;
+&lt;p&gt;​       当在一段代码块定义一个变量时，Java就在栈中为这个变量分配内存空间，当超过变量的作用域后，Java会自动释放掉为该变量所分配的内存空间，该内存空间可以立即被另作他用。 &lt;/p&gt;
+&lt;p&gt;​       &lt;font color=&quot;red&quot;&gt;堆内存&lt;/font&gt;用来存放由&lt;font color=&quot;red&quot;&gt;new&lt;/font&gt;创建的&lt;font color=&quot;red&quot;&gt;对象和数组&lt;/font&gt;。 &lt;/p&gt;
+&lt;p&gt;​       在堆中分配的内存，由Java虚拟机的自动垃圾回收器来管理。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="编程技能" scheme="http://yoursite.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E8%83%BD/"/>
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>java对象和对象引用</title>
     <link href="http://yoursite.com/2016/10/04/java%E5%AF%B9%E5%83%8F%E5%92%8C%E5%AF%B9%E8%B1%A1%E5%BC%95%E7%94%A8/"/>
     <id>http://yoursite.com/2016/10/04/java对像和对象引用/</id>
     <published>2016-10-04T07:21:23.000Z</published>
-    <updated>2018-10-02T07:59:11.907Z</updated>
+    <updated>2018-10-09T03:00:49.955Z</updated>
     
     <summary type="html">
     
