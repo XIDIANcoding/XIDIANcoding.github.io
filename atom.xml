@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-10T15:45:15.653Z</updated>
+  <updated>2018-10-10T15:48:32.713Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,18 +21,16 @@
     <link href="http://yoursite.com/2016/10/10/java%E4%B8%AD%E7%9A%84hashcode%E5%92%8Cequal/"/>
     <id>http://yoursite.com/2016/10/10/java中的hashcode和equal/</id>
     <published>2016-10-10T15:34:42.000Z</published>
-    <updated>2018-10-10T15:45:15.653Z</updated>
+    <updated>2018-10-10T15:48:32.713Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;​    在java.lang.String类中将Object类的hashCode()方法覆写了。&lt;/p&gt;
-&lt;p&gt;​   
-        
-      
+      &lt;p&gt;​    在java.lang.String类中将Object类的hashCode()方法覆写了。&lt;/p&gt;
+&lt;p&gt;​    Object类中的hashCode()返回的是通过将该对象的内部地址转换成一个整数也就是哈希码，由于每个对象的内存地址都不一样，所以哈希码也不一样。但是在String类中覆写的hashCode()方法。&lt;/p&gt;
+&lt;p&gt;String 对象的哈希码根据以下公式计算： &lt;/p&gt;
+&lt;p&gt;s[0]*&lt;em&gt;31^(n-1) + s[1]&lt;/em&gt;31^(n-2) + … + s[n-1]&lt;/p&gt;
+&lt;p&gt;​    使用 int 算法，这里 s[i] 是字符串的第 i 个字符，n 是字符串的长度，^ 表示求幂。（空字符串的哈希值为 0。）&lt;/p&gt;
+&lt;p&gt; 比如：&lt;/p&gt;
     
     </summary>
     

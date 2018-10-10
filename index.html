@@ -390,27 +390,19 @@
 
       
         
-          
-            <p>​    在java.lang.String类中将Object类的hashCode()方法覆写了。</p>
+          <p>​    在java.lang.String类中将Object类的hashCode()方法覆写了。</p>
 <p>​    Object类中的hashCode()返回的是通过将该对象的内部地址转换成一个整数也就是哈希码，由于每个对象的内存地址都不一样，所以哈希码也不一样。但是在String类中覆写的hashCode()方法。</p>
 <p>String 对象的哈希码根据以下公式计算： </p>
 <p>s[0]*<em>31^(n-1) + s[1]</em>31^(n-2) + … + s[n-1]</p>
 <p>​    使用 int 算法，这里 s[i] 是字符串的第 i 个字符，n 是字符串的长度，^ 表示求幂。（空字符串的哈希值为 0。）</p>
 <p> 比如：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">String s1 = <span class="keyword">new</span> String(<span class="string">"hello"</span>);</span><br><span class="line"></span><br><span class="line">String s2 = <span class="keyword">new</span> String(<span class="string">"hello"</span>);</span><br></pre></td></tr></table></figure>
-<p>s1，s2都是“hello”，由此算法计算的hashCode必然是一样的。但是s1,s2是不同的对象。</p>
-<blockquote>
-<p>equals(Object obj)方法用来判断两个对象是否“相同”，如果“相同”则返回true，否则返回false。 </p>
-<p>hashcode()方法返回一个int数，在Object类中的默认实现是“将该对象的内部地址转换成一个整数返回”。</p>
-</blockquote>
-<p>1、如果两个对象equals，Java运行时环境会认为他们的hashcode一定相等。 </p>
-<p>2、如果两个对象不equals，他们的hashcode有可能相等。 </p>
-<p>3、如果两个对象hashcode相等，他们不一定equals。 </p>
-<p>4、如果两个对象hashcode不相等，他们一定不equals。 </p>
-<p>​    Java运行中会先判断hashcode是否相等，再判断是否equals。即先调用hashcode（）方法，如果hashcode不相等，则没有再调用equal（）方法，对象肯定不相等：</p>
-<p>​    如果对象有两个相同的hashcode，所以有必要调用equals(Object obj)方法进行判断了。（如果两个对象hashcode相等，他们不一定equals）</p>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/10/10/java中的hashcode和equal/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
